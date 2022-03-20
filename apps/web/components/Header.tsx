@@ -2,7 +2,7 @@ import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import faGem from "@fortawesome/fontawesome-free-regular/faGem";
 
 interface Header {
-  onOpenArticle: () => void;
+  onOpenArticle: (article: string) => void;
   timeout: boolean;
 }
 

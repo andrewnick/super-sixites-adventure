@@ -50,18 +50,9 @@ export default function Web() {
       }`}
     >
       <div>
-        <Head>
-          <title>Super Sixites Adventure</title>
-          <link
-            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i"
-            rel="stylesheet"
-          />
-        </Head>
-
         <div id="wrapper">
           <Header onOpenArticle={handleOpenArticle} timeout={timeout} />
           <Main
-            // isArticleVisible={isArticleVisible}
             timeout={timeout}
             articleTimeout={articleTimeout}
             article={article}
