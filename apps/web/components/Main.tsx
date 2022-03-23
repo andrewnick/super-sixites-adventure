@@ -47,6 +47,15 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
           </li>
           <li>
             <a
+              href="https://www.glenfern.org.nz/sanctuary-loop-track"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Glen Fern Loop Track
+            </a>
+          </li>
+          <li>
+            <a
               href="https://www.greatbarrierisland.nz/walking-tracks/kaitoke-hot-springs-track/"
               target="_blank"
               rel="noopener noreferrer"
@@ -236,6 +245,10 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
             >
               https://www.greatbarrier.co.nz/eat-drink/
             </a>
+          </li>
+          <li>
+            There are also stores in Tryphena, Claris and Port Fitzroy to buy
+            food for self catering
           </li>
         </ul>
         {close}
