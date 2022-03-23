@@ -25,8 +25,9 @@ const Header = ({ onOpenArticle, timeout }: Header) => (
       <ul>
         <li>
           <a
-            href="javascript:;"
-            onClick={() => {
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
               onOpenArticle("activities");
             }}
           >
@@ -35,8 +36,9 @@ const Header = ({ onOpenArticle, timeout }: Header) => (
         </li>
         <li>
           <a
-            href="javascript:;"
-            onClick={() => {
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
               onOpenArticle("accomodation");
             }}
           >
@@ -45,8 +47,9 @@ const Header = ({ onOpenArticle, timeout }: Header) => (
         </li>
         <li>
           <a
-            href="javascript:;"
-            onClick={() => {
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
               onOpenArticle("travel");
             }}
           >
@@ -55,8 +58,9 @@ const Header = ({ onOpenArticle, timeout }: Header) => (
         </li>
         <li>
           <a
-            href="javascript:;"
-            onClick={() => {
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
               onOpenArticle("tips-and-tricks");
             }}
           >
