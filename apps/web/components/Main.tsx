@@ -196,24 +196,26 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
         <ul>
           <li>
             Go to these sites for more information
-            <p>
-              <a
-                href="https://www.greatbarrier.co.nz/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Great Barrier
-              </a>
-            </p>
-            <p>
-              <a
-                href="https://www.greatbarrierislandtourism.co.nz/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Great Barrier Island Tourism
-              </a>
-            </p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.greatbarrier.co.nz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Great Barrier
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.greatbarrierislandtourism.co.nz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Great Barrier Island Tourism
+                </a>
+              </li>
+            </ul>
           </li>
           <li>
             Bring a written copy of any accommodation access information as
