@@ -1,11 +1,8 @@
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-import faTwitter from "@fortawesome/fontawesome-free-brands/faTwitter";
-import faFacebook from "@fortawesome/fontawesome-free-brands/faFacebook";
-import faInstagram from "@fortawesome/fontawesome-free-brands/faInstagram";
-import faGithub from "@fortawesome/fontawesome-free-brands/faGithub";
-import pic01 from "../images/pic01.jpg";
-import pic02 from "../images/pic02.jpg";
-import pic03 from "../images/pic03.jpg";
+import accommodationImage from "../images/Great-Barrier-accomodation.jpeg";
+import activitiesImage from "../images/great-barrier-view-people-1200.jpeg";
+import travelImage from "../images/gbi-plane.jpeg";
+import tipsAndTricksImage from "../images/gbi-tips-and-tricks.jpeg";
 import Image from "next/image";
 interface Main {
   // route: any;
@@ -28,76 +25,136 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
   return (
     <div id="main" style={timeout ? { display: "flex" } : { display: "none" }}>
       <article
-        id="intro"
-        className={`${article === "intro" ? "active" : ""} ${
+        id="activities"
+        className={`${article === "activities" ? "active" : ""} ${
           articleTimeout ? "timeout" : ""
         }`}
         style={{ display: "none" }}
       >
-        <h2 className="major">Intro</h2>
+        <h2 className="major">Activities</h2>
         <span className="image main">
-          <Image src={pic01} alt="" />
+          <Image src={activitiesImage} alt="" />
         </span>
-        <p>
-          Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-          aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-          convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna
-          finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the
-          way, check out my <a href="#work">awesome work</a>.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus
-          rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh
-          porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc
-          ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit
-          sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris,
-          fringilla in aliquam at, euismod in lectus. Pellentesque habitant
-          morbi tristique senectus et netus et malesuada fames ac turpis
-          egestas. In non lorem sit amet elit placerat maximus. Pellentesque
-          aliquam maximus risus, vel sed vehicula.
-        </p>
+        <ul>
+          <li>
+            <a
+              href="https://www.greatbarrierislandtourism.co.nz/thingstodo/bushwalks-and-tramping/"
+              target="_blank"
+            >
+              Bush Walks
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.greatbarrierisland.nz/walking-tracks/kaitoke-hot-springs-track/"
+              target="_blank"
+            >
+              Kaitoke Hot Springs Track
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.greatbarrierislandtourism.co.nz/dark-sky-sanctuary-great-barrier-island/"
+              target="_blank"
+            >
+              Dark Sky Experience
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.greatbarrier.co.nz/activities-directory/listing/milk-honey-grain-museum/"
+              target="_blank"
+            >
+              Milk, Honey & Grain Museum
+            </a>
+          </li>
+        </ul>
         {close}
       </article>
 
       <article
-        id="work"
-        className={`${article === "work" ? "active" : ""} ${
+        id="accomodation"
+        className={`${article === "accomodation" ? "active" : ""} ${
           articleTimeout ? "timeout" : ""
         }`}
         style={{ display: "none" }}
       >
-        <h2 className="major">Work</h2>
+        <h2 className="major">Accommodation</h2>
         <span className="image main">
-          <Image src={pic02} alt="" />
+          <Image src={accommodationImage} alt="" />
         </span>
         <p>
-          Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at
-          eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna
-          nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin
-          mauris nec lorem luctus ultrices.
+          We know how much you like sharing a bathroom so we have done our best
+          to find the most shared bathrooms we could. 😉
         </p>
-        <p>
-          Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-          libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-          Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas
-          laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et
-          orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris
-          aliquet magna magna sed nunc rhoncus amet feugiat tempus.
-        </p>
+        <ul>
+          <li>
+            <a
+              href="https://www.canopycamping.co.nz/fantail-stories"
+              target="_blank"
+            >
+              Fantail stories
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.bookabach.co.nz/holiday-accommodation/p9511961"
+              target="_blank"
+            >
+              An Asian inspired haven on Aotea Great Barrier Island
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.bookabach.co.nz/holiday-accommodation/p7568888"
+              target="_blank"
+            >
+              Fun and Funky - fully restored genuine 1940's handmade caravan
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.waterfrontlodge.co.nz/great-barrier-island-accommodation/"
+              target="_blank"
+            >
+              Waterfront Cottage
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.pigeonslodge.co.nz/rooms-rates"
+              target="_blank"
+            >
+              Pigeons Lodge
+            </a>
+          </li>
+          <li>
+            <a href="https://www.shoalbay.co.nz/" target="_blank">
+              Shoal Bay Estate
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://www.shearersquarters.co.nz/accommodation"
+              target="_blank"
+            >
+              Shearers Quarters
+            </a>
+          </li>
+        </ul>
         {close}
       </article>
 
       <article
-        id="about"
-        className={`${article === "about" ? "active" : ""} ${
+        id="travel"
+        className={`${article === "travel" ? "active" : ""} ${
           articleTimeout ? "timeout" : ""
         }`}
         style={{ display: "none" }}
       >
-        <h2 className="major">About</h2>
+        <h2 className="major">Travel</h2>
         <span className="image main">
-          <Image src={pic03} alt="" />
+          <Image src={travelImage} alt="" />
         </span>
         <p>
           Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
@@ -111,35 +168,55 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
       </article>
 
       <article
-        id="contact"
-        className={`${article === "contact" ? "active" : ""} ${
+        id="tips-and-tricks"
+        className={`${article === "tips-and-tricks" ? "active" : ""} ${
           articleTimeout ? "timeout" : ""
         }`}
         style={{ display: "none" }}
       >
-        <h2 className="major">Contact</h2>
-        <form method="post" action="#">
-          <div className="field half first">
-            <label htmlFor="name">Name</label>
-            <input type="text" name="name" id="name" />
-          </div>
-          <div className="field half">
-            <label htmlFor="email">Email</label>
-            <input type="text" name="email" id="email" />
-          </div>
-          <div className="field">
-            <label htmlFor="message">Message</label>
-            <textarea name="message" id="message" rows={4}></textarea>
-          </div>
-          <ul className="actions">
-            <li>
-              <input type="submit" value="Send Message" className="special" />
-            </li>
-            <li>
-              <input type="reset" value="Reset" />
-            </li>
-          </ul>
-        </form>
+        <h2 className="major">Tips and Tricks</h2>
+        <span className="image main">
+          <Image src={tipsAndTricksImage} alt="" />
+        </span>
+        <ul>
+          <li>
+            Go to these sites for more information
+            <p>
+              <a
+                href="https://www.greatbarrier.co.nz/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Great Barrier
+              </a>
+            </p>
+            <p>
+              <a
+                href="https://www.greatbarrierislandtourism.co.nz/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Great Barrier Island Tourism
+              </a>
+            </p>
+          </li>
+          <li>
+            Bring a written copy of any accommodation access information as
+            reception can be patchy across the island.
+          </li>
+          <li>
+            Some accommodation requires 4wd access - so check before you book
+            anything
+          </li>
+          <li>
+            Food - there are lots of places to eat out, but opening hours seem
+            to vary across the year. The great barrier website has an up to date
+            guide to help with this{" "}
+            <a href="https://www.greatbarrier.co.nz/eat-drink/" target="_blank">
+              https://www.greatbarrier.co.nz/eat-drink/
+            </a>
+          </li>
+        </ul>
         {close}
       </article>
     </div>

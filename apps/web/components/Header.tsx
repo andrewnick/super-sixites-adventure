@@ -1,5 +1,5 @@
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-import faGem from "@fortawesome/fontawesome-free-regular/faGem";
+import faSun from "@fortawesome/fontawesome-free-regular/faSun";
 
 interface Header {
   onOpenArticle: (article: string) => void;
@@ -9,18 +9,15 @@ interface Header {
 const Header = ({ onOpenArticle, timeout }: Header) => (
   <header id="header" style={timeout ? { display: "none" } : {}}>
     <div className="logo">
-      {/*<span className="icon fa-diamond"></span>*/}
-      <FontAwesomeIcon icon={faGem} transform="grow-18" />
+      <FontAwesomeIcon icon={faSun} transform="grow-18" />
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Your Super Sixties Adventure to Great Barrier Island</h1>
+        <h3>A partial expenses paid trip! </h3>
         <p>
-          A fully responsive site template designed by{" "}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{" "}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          Your guide to what to see and do, where to stay and how to get to
+          Great Barrier Island.
         </p>
       </div>
     </div>
@@ -30,40 +27,40 @@ const Header = ({ onOpenArticle, timeout }: Header) => (
           <a
             href="javascript:;"
             onClick={() => {
-              onOpenArticle("intro");
+              onOpenArticle("activities");
             }}
           >
-            Intro
+            Activities
           </a>
         </li>
         <li>
           <a
             href="javascript:;"
             onClick={() => {
-              onOpenArticle("work");
+              onOpenArticle("accomodation");
             }}
           >
-            Work
+            Accommodation
           </a>
         </li>
         <li>
           <a
             href="javascript:;"
             onClick={() => {
-              onOpenArticle("about");
+              onOpenArticle("travel");
             }}
           >
-            About
+            Travel
           </a>
         </li>
         <li>
           <a
             href="javascript:;"
             onClick={() => {
-              onOpenArticle("contact");
+              onOpenArticle("tips-and-tricks");
             }}
           >
-            Contact
+            Tips and Tricks
           </a>
         </li>
       </ul>
