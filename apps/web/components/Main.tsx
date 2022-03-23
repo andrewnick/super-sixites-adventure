@@ -40,6 +40,7 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
             <a
               href="https://www.greatbarrierislandtourism.co.nz/thingstodo/bushwalks-and-tramping/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Bush Walks
             </a>
@@ -48,6 +49,7 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
             <a
               href="https://www.greatbarrierisland.nz/walking-tracks/kaitoke-hot-springs-track/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Kaitoke Hot Springs Track
             </a>
@@ -56,6 +58,7 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
             <a
               href="https://www.greatbarrierislandtourism.co.nz/dark-sky-sanctuary-great-barrier-island/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Dark Sky Experience
             </a>
@@ -64,6 +67,7 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
             <a
               href="https://www.greatbarrier.co.nz/activities-directory/listing/milk-honey-grain-museum/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Milk, Honey & Grain Museum
             </a>
@@ -92,6 +96,7 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
             <a
               href="https://www.canopycamping.co.nz/fantail-stories"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Fantail stories
             </a>
@@ -100,6 +105,7 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
             <a
               href="https://www.bookabach.co.nz/holiday-accommodation/p9511961"
               target="_blank"
+              rel="noopener noreferrer"
             >
               An Asian inspired haven on Aotea Great Barrier Island
             </a>
@@ -108,14 +114,17 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
             <a
               href="https://www.bookabach.co.nz/holiday-accommodation/p7568888"
               target="_blank"
+              rel="noopener noreferrer"
             >
-              Fun and Funky - fully restored genuine 1940's handmade caravan
+              Fun and Funky - fully restored genuine 1940&apos;s handmade
+              caravan
             </a>
           </li>
           <li>
             <a
               href="https://www.waterfrontlodge.co.nz/great-barrier-island-accommodation/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Waterfront Cottage
             </a>
@@ -124,12 +133,17 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
             <a
               href="https://www.pigeonslodge.co.nz/rooms-rates"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Pigeons Lodge
             </a>
           </li>
           <li>
-            <a href="https://www.shoalbay.co.nz/" target="_blank">
+            <a
+              href="https://www.shoalbay.co.nz/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Shoal Bay Estate
             </a>
           </li>
@@ -137,6 +151,7 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
             <a
               href="http://www.shearersquarters.co.nz/accommodation"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Shearers Quarters
             </a>
@@ -212,7 +227,11 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
             Food - there are lots of places to eat out, but opening hours seem
             to vary across the year. The great barrier website has an up to date
             guide to help with this{" "}
-            <a href="https://www.greatbarrier.co.nz/eat-drink/" target="_blank">
+            <a
+              href="https://www.greatbarrier.co.nz/eat-drink/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               https://www.greatbarrier.co.nz/eat-drink/
             </a>
           </li>
