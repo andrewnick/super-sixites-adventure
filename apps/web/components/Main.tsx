@@ -180,14 +180,66 @@ const Main = ({ article, articleTimeout, onCloseArticle, timeout }) => {
         <span className="image main">
           <Image src={travelImage} alt="" />
         </span>
+        <h3>Getting There</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-          eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat
-          volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam.
-          Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero
-          et malesuada fames ac ante ipsum primis in faucibus. Cras viverra
-          ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.
+          There are two options. One is to travel by plane and the other by
+          ferry. With the plane it is recommended you hire a vehicle preferably
+          4wd drive as some accommodation needs one for access.
         </p>
+        <h4>Flights</h4>
+        <p>
+          For shorter weekend stays its a good idea to take a flight from
+          Auckland with Barrier Air and hire a car on the island. For longer
+          stays a return boat trip or fly in, boat out are also great options.
+          The flight from Auckland, either from the domestic terminal in Manukau
+          or from the North Shore is just a quick 30 minute journey on a 6-12
+          seater plane. There are regular scheduled flights departing from
+          Auckland Domestic Terminal for Claris or Okiwi.
+        </p>
+        <p>
+          <a
+            href="https://www.greatbarrierislandtourism.co.nz/flights/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Travel Deals
+          </a>
+        </p>
+        <h4>Ferry</h4>
+        <p>
+          By Sealink ferry, the crossing from Auckland is a relaxing 4 and a
+          half hours, docking at Tryphena wharf 7 days a week in the summer and
+          3 days in the winter. The ferry is able to transport passengers,
+          freight and vehicles.
+        </p>
+        <p>
+          <a
+            href="https://www.greatbarrier.co.nz/transport/guide-to-getting-here/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            More Information
+          </a>
+        </p>
+        <h3>Getting Around</h3>
+        <h4>Car Hire</h4>
+        <ul>
+          <li>Small cars ~$60 per day</li>
+          <li>Smaller 4wd ~$65 per day</li>
+          <li>Larger 4wd ~$80 per day</li>
+        </ul>
+        <p>
+          <strong>Top tip:</strong> During peak season be sure to book transport
+          long in advance, bookings get filled up very quickly. When we say
+          early, for the peak months, this can mean up to a year in advance.
+        </p>
+        <a
+          href="https://www.greatbarrier.co.nz/transport/getting-around/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          More Information
+        </a>
         {close}
       </article>
 
